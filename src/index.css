@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(234, 235, 247);
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+#imgLogo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+#portxt {
+  font-size: 40px;
+  color: rgb(85, 5, 160);
+}
+
+.linkSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  gap: 25px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 0, 187);
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 16px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  background-color: #dde0e7;
+  color: #060697;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #cdd0da;
+  transform: scale(1.02);
+}
+
+#svg {
+  height: 20px;
+  width: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 20px;
+  height: 620px;
+}
+
+.userDetail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 400px;
+  width: 750px;
+  padding: 25px;
+  text-align: start;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userName #hello {
+  font-size: 25px;
+  font-weight: 600;
+  place-self: flex-start;
+}
+
+.userName h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+#bio {
+  font-size: 25px;
+  text-align: start;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.userDetail p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.socialLink #btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.socialLink #btnBox .btn {
+  border-radius: 10px;
+  background-color: rgb(69, 69, 218);
+}
+
+#btnBox .btn:first-child a {
+  color: white;
+}
+
+#btnBox .btn:nth-child(2) {
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+#btnBox .btn:nth-child(2):hover {
+  background-color: rgb(69, 69, 218);
+  border: 1px solid white;
+  transition: all 0.1s ease;
+}
+
+#btnBox .btn:nth-child(2):hover a {
+  color: white;
+}
+
+.socialLink a {
+  text-decoration: none;
+}
+
+.socialLink #link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.socialLink #link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.socialLink #link a img {
+  height: 35px;
+  width: 35px;
+}
+
+.userJson {
+  background-color: rgb(37, 35, 39);
+  width: 100%;
+  max-width: 700px;
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.userJson code {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 3rem;
+}
+
+.userJson code span {
+  font-size: 18px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.userJson img {
+  filter: brightness(0) invert(1);
+  height: 28px;
+  width: 28px;
+  align-self: flex-start;
+}
+
+.about {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+.about .aboutSection {
+  height: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 16px 32px;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.glass-box div {
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media only screen and (max-width : 1100px) {
+  .home {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 50px;
+    gap: 60px;
+    margin: 20px 0;
+  }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .userDetail {
+    width: 100%;
+  }
+
+  .aboutSection {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aboutSection .userInfo {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .aboutSection .userBio,
+  .aboutSection .userInfo {
+    width: 100%;
+  }
+
+  .aboutSection .userInfo .userImage {
+    height: 200px;
+    width: 200px;
+  }
+
+  .aboutSection .userInfo .userImage img {
+    height: 190px;
+    width: 190px;
+  }
+}
+
+@media only screen and (max-width : 900px) {
+  .navBar {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 640px) {
+  .navBar {
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .logo1 {
+    padding-right: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .linkSection.open {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: rgb(234, 235, 247);
+    flex-direction: column;
+    justify-content: start;
+    height: 400px;
+    width: 50%;
+    z-index: 10;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  .userName #hello {
+    font-size: 20px;
+  }
+
+  .userName h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  #bio {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .userDetail p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .socialLink {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 10px;
+  }
+
+  .socialLink #link a img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .userJson code {
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .userJson code span {
+    font-size: 16px;
+  }
+
+  .userJson img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .aboutSection .userInfo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width : 460px) {
+  .home {
+    height: auto;
+    padding-top: 100px;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .userName h2 {
+    font-size: 25px;
+  }
+
+  #bio {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .userDetail {
+    padding: 10px;
+  }
+
+  .socialLink #btnBox .btn a {
+    font-size: 1rem;
+  }
+
+  .userDetail p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .userJson {
+    padding: 0.2rem;
+  }
+
+  .userJson code span {
+    font-size: 14px;
+  }
+
+  .projectLink {
+    flex-direction: column;
+  }
+
+  .small460 {
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+}
