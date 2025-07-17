@@ -19,7 +19,7 @@ Clean folder structure and reusable components
 
 ## 🚀 Website Link
 
-🔗 **Live:** [Click Here to View My Portfolio](https://your-username.github.io/portfolio)
+🔗 **Live:** [Click Here to View My Portfolio](https://ayan-sheikh-portfolio.vercel.app/)
 ## Installation
 
 Follow these steps to run this project locally on your computer:
