@@ -16,7 +16,7 @@ function About() {
                     <div className="flex flex-col md:flex-row items-center gap-4 m-5 w-full">
                         <div className="border-2 border-black h-auto w-full md:w-[450px] p-6 rounded-3xl bg-blue-600" style={{backgroundColor:'rgb(15, 23, 42)', color:'white', borderColor:'rgb(30 41 59)'}}>
                             <div className='flex items-center gap-5 mb-5'>
-                                <img src={edCap}/>
+                                <img src={edCap} className='invert'/>
                                 <h1 className='text-2xl font-mono font-bold'>Education</h1>
                             </div>
                             <h3 className="text-xl font-semibold mb-2">Bachelor of Computer Applications (BCA)</h3>
@@ -45,7 +45,7 @@ function About() {
                                 </span>
                             ))}
                         </div>
-                        <a href="https://drive.google.com/file/d/1KJys3RSuKcndqKC2Ty4H7QkEgSFH0my3/view?usp=drivesdk" target='_blank'>
+                        <a href="https://drive.google.com/file/d/1jGAwF__-eRGzTpAAhPBd-yJpkseEKDrT/view?usp=drive_link" target='_blank'>
                             <button className='border border-black bg-blue-700 text-white px-6 py-2 text-lg rounded-[30px rounded-lg m-4 hover:bg-blue-800 transition'> Download Resume</button></a>
                     </div>
                 </div>

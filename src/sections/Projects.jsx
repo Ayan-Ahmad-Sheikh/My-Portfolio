@@ -1,8 +1,17 @@
 import weatherImg from '../images/weatherImg.png';
 import noteNest from '../images/NoteNestImg.png';
-import quoteImg from '../images/QuotesApi.png';
+import emp from '..//images/emp.png';
 
 const projectList = [
+    {
+        title: "Employee Directory API (Spring Boot, MySQL)",
+        Desc : "I created a Employee Directory (CRUD) with a Spring Boot + MySQL backend to handle employee data management. Implemented RESTful APIs for create, read, update, and delete operations. On the frontend, developed a responsive and modern UI using React with Vite, ensuring smooth and dynamic interaction between client and server. Focused on clean design, modular code structure, and seamless integration between backend and frontend.",
+        languages : ["Java", "Spring Boot", "MySQL", "React.js + vite"],
+        githubLink : "https://github.com/Ayan-Ahmad-Sheikh/Employee-Directory.git",
+        liveLink : "https://employee-directory-rho-silk.vercel.app/",
+        imgLink : emp
+    },
+
     {
         title: "Weather WebApp (JS, OpenWeatherMap API)",
         Desc : "I created a responsive weather app using JavaScript and the OpenWeatherMap API. Fetched real-time data and dynamically updated the UI with JSON, fetch, and DOM manipulation. Designed a clean interface using HTML and CSS.",
@@ -19,15 +28,6 @@ const projectList = [
         githubLink : "https://github.com/Ayan-Ahmad-Sheikh/Notes-website.git",
         liveLink : "https://ayan-ahmad-sheikh.github.io/Notes-website/",
         imgLink : noteNest
-    },
-
-    {
-        title: "Quote Generato (React JS)",
-        Desc : "I created a Quote Generator app using JavaScript and RapidAPI to fetch random quotes. Used fetch API and asynchronous JavaScript to display quotes dynamically, with a clean UI built using HTML and CSS",
-        languages : ["JavaScript", "HTML", "CSS", "Rapid API"],
-        githubLink : "https://github.com/Ayan-Ahmad-Sheikh/Quote-Generator-using-API.git",
-        liveLink : "https://ayan-ahmad-sheikh.github.io/Quote-Generator-using-API/",
-        imgLink : quoteImg
     }
 ];
 

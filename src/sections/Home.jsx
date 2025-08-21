@@ -8,7 +8,7 @@ import closeBracket from "../images/close-bracket.png";
 
 function Home() {
     return (
-        <div className='home pt-[100px]' id='house'>
+        <div className='home' id='house'>
             <div className="userDetail">
                 <div className='userName'>
                     <span id='hello' >Hello I`m</span>
@@ -31,7 +31,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className="relative max-w-[650px] mx-auto">
+            <div className="relative max-w-[650px]">
                 <div className="relative bg-[#252327] border border-gray-700 p-6 rounded-3xl shadow-md font-mono text-sm text-white">
 
                     <div className="flex justify-between items-center mb-6">

@@ -12,17 +12,17 @@ function Footer() {
             </div>
             <div className='flex justify-center items-start sm:items-end flex-col gap-5 w-full sm:w-[45%] text-[1.25rem]'>
                 <div className='flex justify-center items-center gap-3'>
-                    <a href="https://github.com/Ayan-Ahmad-Sheikh" target='_blank'>
+                    <a href="https://github.com/Ayan-Ahmad-Sheikh" target='_blank' className='brightness-0 invert'>
                         <img src={githubIcon} alt="" className='h-[40px] w-[40px]' />
                     </a>
-                    <a href="mailto:ayansheikh.ind@gmail.com">
+                    <a href="mailto:ayansheikh.ind@gmail.com" className='brightness-0 invert'>
                         <img src={gmailIcon} alt="" className='h-[40px] w-[40px]' />
                     </a>
-                    <a href="https://www.linkedin.com/in/ayan-ahmad-sheikh" target='_blank'>
+                    <a href="https://www.linkedin.com/in/ayan-ahmad-sheikh" target='_blank' className='brightness-0 invert'>
                         <img src={linkedInIcon} alt="" className='h-[40px] w-[40px]' />
                     </a>
-                    <a href="https://www.geeksforgeeks.org/user/ayansheikh/" target='_blank'>
-                        <img src={gfgIcon} alt="" className='h-[40px] w-[40px] invert rounded-[50%]' />
+                    <a href="https://www.geeksforgeeks.org/user/ayansheikh/" target='_blank' className='invert'>
+                        <img src={gfgIcon} alt="" className='h-[40px] w-[40px] rounded-[50%] invert' />
                     </a>
                 </div>
                 <p className='text-justify h-auto w-auto'>CopyRight© 2025 Ayan Ahmad Sheikh | Built with React and Tailwind</p>

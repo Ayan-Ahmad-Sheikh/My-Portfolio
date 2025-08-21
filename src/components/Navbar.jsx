@@ -1,7 +1,5 @@
 import { Link } from 'react-scroll';
 import logo from "../images/ASLogo.png";
-import AngleDownIcon from "../images/angle-small-down.svg";
-import menu from '../images/menu.png';
 import { useState } from 'react';
 
 function Navbar() {
@@ -29,12 +27,12 @@ function Navbar() {
 
             <div className={`linkSection ${isOpen ? "open" : "hidden"}`}>
                 <Link to="home" smooth={true} duration={500} offset={-120} className='nav-link w-full' onClick={() => setIsOpen(false)}>Home</Link>
-                <Link to="about" smooth={true} duration={500} offset={-150} className='nav-link w-full' onClick={() => setIsOpen(false)}>About</Link>
-                <Link to="projects" smooth={true} duration={500} offset={-100} className='nav-link w-full' onClick={() => setIsOpen(false)}>Projects</Link>
-                <Link to="skills" smooth={true} duration={500} offset={-100} className='nav-link' onClick={() => setIsOpen(false)}>Skills</Link>
-                <Link to="contact" smooth={true} duration={500} offset={-100} className='nav-link' onClick={() => setIsOpen(false)}>Contact</Link>
-                <a href="https://drive.google.com/file/d/1KJys3RSuKcndqKC2Ty4H7QkEgSFH0my3/view?usp=drivesdk" target='_blank'>
-                    <button className='btn' onClick={() => setIsOpen(false)}>Resume</button>
+                <Link to="about" smooth={true} duration={500} offset={-70} className='nav-link w-full' onClick={() => setIsOpen(false)}>About</Link>
+                <Link to="projects" smooth={true} duration={500} offset={-50} className='nav-link w-full' onClick={() => setIsOpen(false)}>Projects</Link>
+                <Link to="skills" smooth={true} duration={500} offset={-30} className='nav-link' onClick={() => setIsOpen(false)}>Skills</Link>
+                <Link to="contact" smooth={true} duration={500} offset={-50} className='nav-link' onClick={() => setIsOpen(false)}>Contact</Link>
+                <a href="https://drive.google.com/file/d/1jGAwF__-eRGzTpAAhPBd-yJpkseEKDrT/view?usp=drive_link" target='_blank' className='btn' onClick={() => setIsOpen(false)}>
+                    Resume
                 </a>
             </div>
         </nav >
